@@ -144,3 +144,5 @@ AUTH_USER_MODEL = 'auth.User'
 
 # [코드 작성] django_heroku 설정
 
+import django_heroku
+django_heroku.settings(locals())
