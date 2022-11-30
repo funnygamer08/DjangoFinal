@@ -2,8 +2,8 @@
   padding: 5px 10px;
   border: 1px solid;
   border-radius: 10px;
-  background-color: Khaki;
-  color: SaddleBrown;
+  background-color: rgb(227, 237, 255);
+  color: rgb(93, 144, 255);
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .posting__list td a {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -54,13 +54,24 @@
 }
 
 .posting__list .author {
+  overflow: hidden;
   width: 4rem;
   text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .posting__list .date {
   width: 6rem;
   text-align: center;
+}
+
+.title-content {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .paginator {
@@ -72,23 +83,23 @@
   padding: 3px 6px;
   border: 1px solid;
   border-radius: 5px;
-  background-color: Tan;
-  color: SaddleBrown;
+  background-color: rgb(210, 223, 255);
+  color: rgb(66, 76, 255);
   font-size: 0.8rem;
   text-decoration: none;
 }
 
 a.paginator__disabled {
-  background-color: LightGray;
-  color: DimGray;
+  background-color: rgb(210, 223, 255);
+  color: rgb(66, 76, 255);
 }
 
 a.page_number{
-  background-color: Khaki;
-  color: SaddleBrown;
+  background-color: rgb(208, 232, 255);
+  color: rgb(106, 123, 255);
 }
 
 a.page_number__active {
-  background-color: SaddleBrown;
-  color: Khaki;
+  background-color: rgb(208, 232, 255);
+  color: rgb(106, 123, 255);
 }
